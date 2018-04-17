@@ -1,3 +1,10 @@
 language: cpp
 
+install:
+- echo ${CXX}
+- ${CXX} --version
+
+before_script:
+- cmake --version
+
 script: ./build.sh
