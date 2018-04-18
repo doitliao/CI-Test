@@ -4,5 +4,5 @@ echo ${CXX}
 echo ${CC}
 ${CXX} --version
 ${CC} --version
-${CXX} ci.cc
+${CXX} -std=c++11 ci.cc
 ./a.out
