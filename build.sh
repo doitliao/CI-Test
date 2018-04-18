@@ -1,4 +1,8 @@
 #bash
 
-g++ ci.cc
+echo ${CXX}
+echo ${CC}
+${CXX} --version
+${CC} --version
+${CXX} ci.cc
 ./a.out
